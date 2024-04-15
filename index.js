@@ -15,7 +15,8 @@ app.use(express.json());
 dotenv.config();
 
 const PORT = process.env.PORT || 4000;
-const URL = process.env.MongoDBURL;
+// const URL = process.env.MongoDBURL;
+const URL="mongodb+srv://Abhishek:Abhi@cluster0.dfkihhb.mongodb.net/ecommercedatabase?retryWrites=true&w=majority&appName=Cluster0"
 
 // connect to mongoDB
 // try {
